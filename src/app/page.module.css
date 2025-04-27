@@ -16,6 +16,19 @@
   font-family: var(--font-geist-sans);
 }
 
+.title {
+  text-align: center;
+}
+.backgroundImage{
+  border:solid lawngreen 1px;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  gap:7rem;
+}
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;

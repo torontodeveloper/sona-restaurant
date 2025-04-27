@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 20rem 
+}
+
+.validation{
+    margin-left:5rem;
+    border:solid 3px red;
+}
